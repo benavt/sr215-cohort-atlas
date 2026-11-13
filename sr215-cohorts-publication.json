@@ -80,11 +80,14 @@
   "unavailable_unrelated_legacy_manifest_entries_omitted": 4560,
   "physical_bytes": 831089556,
   "deployment_file_sha256": {
-    "app.js": "f618bf27fcc67823f4f41ddf9d9bb68a22e22ffb65b250bf889134d364fcc7ce",
+    "app.js": "8193be12868fd7f878481d9a3478d013b979230892c188a3e1b95180b6d61ff5",
     "uploaded_states.js": "b503049310723cd363e0af11a14643d427ee84d3c56ddbb2710aca03a62de27e",
-    "cohort-analysis.html": "945428963aa87c8aafbfc1d7803df83ae6535d6ce5bd51498c5aab2501c46f9a",
-    "cohort-2000-analysis.html": "632f1d3d7417427c7c9da0f7dd16507231bb7c4bad657ef6fe0518fa9d2a1c0f",
-    "packed-assets.json": "2e1995bb58a79897c0738c8f6299ca416b5ab893a34943047092fa7fff083d9f"
+    "cohort-analysis.html": "50d2bb28ac16bba5204c6b99551d1dc5dc07f4c1e87a3100d362c51ba02279ee",
+    "cohort-2000-analysis.html": "9871de1c40d47c5f1f3132a932cce8cc92e3e57f7fad0dfcfcc8ec6b2df16bd3",
+    "packed-assets.json": "2e1995bb58a79897c0738c8f6299ca416b5ab893a34943047092fa7fff083d9f",
+    "index.html": "4a77d186e5de083b2316f844078791c1d094b1b45b1fea2e1c595a44becb6b91",
+    "cohort_sampling.js": "3629b9210acaf9b99fecc2abd59679a3ca781564693ae4181b5a5f404f88526a",
+    "cohort-analysis.js": "1ffb991720171729c0ddcb313c594e8924bc6e17c1860e3b76451450353fc108"
   },
   "privacy_sanitization": [
     {
@@ -128,5 +131,26 @@
       "reviewed_sha256": "5b308f0703a78300fdd8fc627405c59199a9f94c95a215ccca13dfa9b3801fa9",
       "published_sha256": "4b11420726972a07c62e349c9f6469062fcd4ef19bc3cdd5ca43523d5d77abeb"
     }
-  ]
+  ],
+  "sampling_highlight_ui": {
+    "source": "Accepted per-cohort summary panels; exact model-ID joins",
+    "cohorts": [
+      2000,
+      2150
+    ],
+    "masks": 4,
+    "views": [
+      "primary",
+      "density"
+    ],
+    "projections": [
+      "pca",
+      "umap",
+      "tsne"
+    ],
+    "panel_view_cases_verified": 64,
+    "projection_mappings_verified": 192,
+    "scientific_artifacts_changed": false,
+    "report_links": "Each accepted panel links to the atlas with its state, method and repeat selected"
+  }
 }

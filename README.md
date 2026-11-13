@@ -14,3 +14,5 @@ Large files use the established lossless gzip loader. `packed-assets.json` recor
 This dedicated snapshot leaves the existing [AIS/CASP17 atlas](https://benavt.github.io/ais-casp17-clusters/) and [RPF results](https://benavt.github.io/rpf-results/) unchanged. The upstream renderer identity remains in `publication-provenance.json.gz`; this repository adds the reviewed cohort-specific presentation and results.
 
 Publication CI runs the established privacy test suite and full tracked-file privacy scanner. Scientific and live-browser acceptance are recorded separately in the cohort publication process.
+
+Use **Sampled state**, **Repeat**, and **Highlight MCMC · 50** or **Highlight DISCO · 50** in the cluster explorer to ring the exact saved panel across PCA, UMAP and t-SNE. The controls cover both cohorts, all four residue subsets and both clustering views. Bonsai highlights selected IDs present in its saved tree and reports coverage. The 2,150-model cohort has three saved repeats; the 2,000-model cohort has one. Clear sampled models restores the base display. Selected-panel PDB and membership/score CSV downloads accompany the controls.
