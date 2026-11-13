@@ -1,0 +1,22 @@
+{
+  "status": "accepted",
+  "models": 150,
+  "energy_evaluations": 2400,
+  "chunks": [
+    {
+      "chunk": "chunk-000",
+      "energies_csv_sha256": "93aa08b463346d28e64d69da2313fa449b62ec6816bdd0b30907d6e0e8cd5277",
+      "result_json_sha256": "0be8f7c64a7fbf7f0d0515cf89cf7ece14482450c0502344ea2d4bc53ef2d759"
+    },
+    {
+      "chunk": "chunk-001",
+      "energies_csv_sha256": "5399353546bf58fa48624294768ca01c9fb43eb23db722400baa32235cd239a9",
+      "result_json_sha256": "24b3832066f3017eed9a9f9adc7ecc9ee6a123bcf9e7a57cbd1f773beb28a202"
+    }
+  ],
+  "combined_cohort_models": 2150,
+  "combined_csv_sha256": "0d79fb0164aeede116e1a59cddd1fb62417808e2d6698bf2e51469bff0025739",
+  "model": 6,
+  "display_time_index": 10,
+  "display_time_value": 0.1
+}

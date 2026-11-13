@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "target": "SR215_bmr6366",
+  "authorization": "User reviewed both-cohort preview then requested publish on 2026-11-13",
+  "repository": "benavt/sr215-cohort-atlas",
+  "publication_date_utc": "2026-11-13T16:10:10.542118+00:00",
+  "cohorts": [
+    {
+      "models": 2000,
+      "clustering_masks": 4,
+      "clustering_views": 8,
+      "representative_entries": 99,
+      "native_panels": 8,
+      "double_recall_comparisons": 31,
+      "summary_sha256": "3ef1e7769b0cd2097fff07997c73b4671e2105b7fd06fb5341db685596acb90f"
+    },
+    {
+      "models": 2150,
+      "clustering_masks": 4,
+      "clustering_views": 8,
+      "representative_entries": 105,
+      "native_panels": 24,
+      "double_recall_comparisons": 87,
+      "summary_sha256": "1b79b71ad9ece687b784e09e9dd79284ce039cd8594a175ebd3673f607c95ddf"
+    }
+  ],
+  "medoid_models": [
+    45,
+    40,
+    42
+  ],
+  "prediction_to_medoid_pairs": 6000,
+  "scientific_reruns": 0,
+  "paid_calls": 0,
+  "transport": "Existing lossless gzip protocol; original logical scientific hashes retained",
+  "source": "Reviewed standalone SR215 cohort preview; existing ais-casp17-clusters deployment preserved",
+  "transport_added": [
+    "analysis/double-recall.json",
+    "analysis/rpf-acceptance.json",
+    "analysis/sampling-audit.json",
+    "analysis/model-scores-2150.json",
+    "analysis/rpf-hydrogen-profile-summary.json",
+    "analysis/panels/sr215-2150_res32-47-plus78-99-plus121-139_S1_disco50_r2.pdb",
+    "analysis/panels/sr215-2150_res5-95_S1_disco50_r2.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99-plus121-139_S1_mcmc50_r1.pdb",
+    "analysis/panels/sr215-2150_all_S1_mcmc50_r3.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99_S1_mcmc50_r1.pdb",
+    "analysis/panels/sr215-2150_all_S1_mcmc50_r1.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99-plus121-139_S1_disco50_r3.pdb",
+    "analysis/panels/sr215-2150_all_S1_mcmc50_r2.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99_S1_disco50_r1.pdb",
+    "analysis/panels/sr215-2150_all_S1_disco50_r2.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99_S1_mcmc50_r2.pdb",
+    "analysis/panels/sr215-2150_all_S1_disco50_r3.pdb",
+    "analysis/panels/sr215-2150_all_S1_disco50_r1.pdb",
+    "analysis/panels/sr215-2150_res5-95_S1_mcmc50_r2.pdb",
+    "analysis/panels/sr215-2150_res5-95_S1_mcmc50_r3.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99_S1_disco50_r2.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99-plus121-139_S1_mcmc50_r3.pdb",
+    "analysis/panels/sr215-2150_res5-95_S1_disco50_r3.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99-plus121-139_S1_disco50_r1.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99_S1_mcmc50_r3.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99-plus121-139_S1_mcmc50_r2.pdb",
+    "analysis/panels/sr215-2150_res32-47-plus78-99_S1_disco50_r3.pdb",
+    "analysis/panels/sr215-2150_res5-95_S1_disco50_r1.pdb",
+    "analysis/panels/sr215-2150_res5-95_S1_mcmc50_r1.pdb",
+    "analysis-2000/panels/sr215-2000_res5-95_S1_mcmc50_r1.pdb",
+    "analysis-2000/panels/sr215-2000_res5-95_S1_disco50_r1.pdb",
+    "analysis-2000/panels/sr215-2000_res32-47-plus78-99-plus121-139_S1_disco50_r1.pdb",
+    "analysis-2000/panels/sr215-2000_all_S1_mcmc50_r1.pdb",
+    "analysis-2000/panels/sr215-2000_res32-47-plus78-99_S1_mcmc50_r1.pdb",
+    "analysis-2000/panels/sr215-2000_all_S1_disco50_r1.pdb",
+    "analysis-2000/panels/sr215-2000_res32-47-plus78-99_S1_disco50_r1.pdb",
+    "analysis-2000/panels/sr215-2000_res32-47-plus78-99-plus121-139_S1_mcmc50_r1.pdb",
+    "sr215-260-states/downloads/260_state3-50-model-ensemble.pdb",
+    "sr215-260-states/downloads/260_state2-50-model-ensemble.pdb",
+    "sr215-260-states/downloads/260_state1-50-model-ensemble.pdb"
+  ],
+  "navigation_scope": "Only the reviewed SR215 2000 and2150 cohorts; existing atlas remains separate",
+  "unavailable_unrelated_legacy_manifest_entries_omitted": 4560,
+  "physical_bytes": 831089556,
+  "deployment_file_sha256": {
+    "app.js": "f618bf27fcc67823f4f41ddf9d9bb68a22e22ffb65b250bf889134d364fcc7ce",
+    "uploaded_states.js": "b503049310723cd363e0af11a14643d427ee84d3c56ddbb2710aca03a62de27e",
+    "cohort-analysis.html": "945428963aa87c8aafbfc1d7803df83ae6535d6ce5bd51498c5aab2501c46f9a",
+    "cohort-2000-analysis.html": "632f1d3d7417427c7c9da0f7dd16507231bb7c4bad657ef6fe0518fa9d2a1c0f",
+    "packed-assets.json": "2e1995bb58a79897c0738c8f6299ca416b5ab893a34943047092fa7fff083d9f"
+  },
+  "privacy_sanitization": [
+    {
+      "file": "sr215-260-states/downloads/protein-ebm-energy-rankings-2150.csv",
+      "removed_columns": [
+        "path"
+      ],
+      "rows": 2150,
+      "all_remaining_model_hash_rank_and_energy_fields_unchanged": true,
+      "reviewed_sha256": "0d79fb0164aeede116e1a59cddd1fb62417808e2d6698bf2e51469bff0025739",
+      "published_sha256": "02553d279597c4120a0059042bcd566a0d5af7e7da398fafd9645fc1b4981644"
+    },
+    {
+      "file": "sr215-260-states/res5-95/density-representatives.zip",
+      "operation": "Repackage exact representative entries as ZIP_STORED to avoid incidental compressed-byte hostname match",
+      "members": {
+        "SR215_bmr6366__260State2__0012.pdb": "75f838f55f9203283501fe3685fa2d5ad197a193b062e8b9d88e72ad8f2e0eb2",
+        "SR215_bmr6366__AFSample3__0694.cif": "318f6e0b38d66110dfa6a92c8de0ab40e77a5dbe39ffe3e02d39dd6611814e77",
+        "SR215_bmr6366__BioEMU2__0802.pdb": "e2d185450464129638c8cf24600dc5068afefece9a4a4bce8acc41f655ae3979",
+        "SR215_bmr6366__BioEMU2__0891.pdb": "7f85fdee6a5da4cd0491f8a1c7742da7cc38c3f4db18fda562b3b87933cbb612",
+        "SR215_bmr6366__BioEMU2__0883.pdb": "f8b82184e63683405e961d0cc3f5bb0f5bd6a24fbfb911a137cccc9eab3926a4",
+        "SR215_bmr6366__BioEMU2__0622.pdb": "9464e0c739e1452aea6d945193a04ece0840ec5ab25535055e07da10f514327c",
+        "SR215_bmr6366__BioEMU2__0680.pdb": "cefc5402e56dc0effd6a888e939fa4dbcebf5147e64b4065247d561d80bce909",
+        "SR215_bmr6366__BioEMU2__0785.pdb": "2971e3284cbe96229d9395b5cd6096df9f0337f23b31bf9242b02bf0008c9871",
+        "SR215_bmr6366__AFSample3__0938.cif": "ecccff7f7907948f62677204f4efbc6bf226c8634b05b04eb5005ceebd8c021b",
+        "SR215_bmr6366__AFSample3__0729.cif": "d72881feba6f6ea5489902623fbf5a7f2debc86edb9427036c9c5337bc3751c4",
+        "SR215_bmr6366__BioEMU2__0229.pdb": "cd334acec606018508edf6a6aa8b527794564b0431bd376bd6d9af8e84646ea4",
+        "SR215_bmr6366__AFSample3__0061.cif": "ee59002526665ed03d67a15519d1d7359c5df4d031e9cac7b341f43b02ee40a9",
+        "SR215_bmr6366__AFSample3__0100.cif": "24b8a0f29d730028ce31fb685f69e2d030ee01234636b63ca49a8e67422c33d3",
+        "SR215_bmr6366__AFSample3__0642.cif": "d4a077bfdcb3fb6da0dde18c92fc063a531cc1bd28bcc7a2a86facf50de8eb1e",
+        "SR215_bmr6366__AFSample3__0559.cif": "12ba1ecf67b1b8564d4a711600f7dc1f4520b85f6c3026d7e695596e7cd9c458",
+        "SR215_bmr6366__AFSample3__0185.cif": "de6fd73eacca58bf897cd86a83ff38b006b3b26766f16e5dc77b2a371f4e4007",
+        "SR215_bmr6366__AFSample3__0384.cif": "8f6af11a8e64ef8fdbc3850036bd370e032750932e7495a5642a9df03b8ead03",
+        "SR215_bmr6366__AFSample3__0752.cif": "fd36fd5acf5f0ef166bbe1c6071ad6e503240fec81a50c7cd62d19f7782dc87d",
+        "SR215_bmr6366__AFSample3__0031.cif": "a84691fc99b4330f7131195150aefe019e72aad34d96f4fbd901c752c8ca0b9f",
+        "SR215_bmr6366__AFSample3__0434.cif": "61ebd12d0ee5ba972ca0b3b17b01caec1ba5a5859e301bc4f04ba58cc3ce1140",
+        "SR215_bmr6366__AFSample3__0440.cif": "f413942b5caa40fdcabbac06cdb6ddca51d2cf28ae12f17f121bf16ca22736ea",
+        "SR215_bmr6366__260State1__0006.pdb": "852257c17b0337713e14428441beb161e8e16bbfa4a019274c20fb70622ab6ba",
+        "SR215_bmr6366__AFSample3__0811.cif": "e1c3d01dea572c4a26748546c8d8a9fab2efcb8fc97f8191c1809079191a572b"
+      },
+      "reviewed_sha256": "5b308f0703a78300fdd8fc627405c59199a9f94c95a215ccca13dfa9b3801fa9",
+      "published_sha256": "4b11420726972a07c62e349c9f6469062fcd4ef19bc3cdd5ca43523d5d77abeb"
+    }
+  ]
+}
