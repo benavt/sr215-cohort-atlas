@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "kind": "public_transport_sanitization",
+  "target": "SR215_bmr6366",
+  "cohort_id": "afs1-relaxed-afs3-7000",
+  "scientific_values_changed": false,
+  "transforms": [
+    {
+      "file": "cohort-manifest.json",
+      "removed_fields": [
+        "source_path",
+        "remote_source_path"
+      ],
+      "source_sha256": "e5f104815f600480b08a3c6193ea9804fb67506e8d0526ecc3095cb057b7a73a",
+      "public_sha256": "68f5314968f51829520606a69459f70e5f21c71553b9518fd1b6ec9d196f00e0",
+      "rows": 7000
+    },
+    {
+      "file": "protein-ebm-energy-rankings-7000.csv",
+      "removed_fields": [
+        "path"
+      ],
+      "source_sha256": "792cabf438b8832ce86cba933d77850749103436c420a7766616c5ea16eec67c",
+      "public_sha256": "138984338b172795c871ac63c565bb3dfdf190afca6f52fa6c91c595b271fc93",
+      "rows": 7000
+    }
+  ]
+}
