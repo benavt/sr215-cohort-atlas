@@ -2,6 +2,8 @@
 
 Reviewed static publication of two exact SR215 cohorts: 1,000 AFS3 + 1,000 BioEmu2 models, and the same cohort plus 150 conformers from 260 states 1, 2 and 3.
 
+The repository also serves the accepted browser assets for the 7,000-model relaxed AFS1 + AFS3 atlas cohort (6,000 relaxed AFS1 and 1,000 AFS3 models). Its four residue scopes include verified representative coordinates, Bonsai layouts, memberships, exact-cohort and ProteinEBM records, and representative/Bonsai bundles under `sr215-afs1-afs3/`. The 507 aligned ensemble parts are immutable downloads in the `sr215-afs1-afs3-7000-v1` release; each atlas payload records its exact byte count and SHA-256.
+
 - `cohort-2000-analysis.html`: four residue subsets, 2,000 individual RPF results, eight native MCMC/DISCO ensembles, 31 Double Recall comparisons and 99 representative TM entries.
 - `cohort-analysis.html`: four residue subsets, 2,150 individual RPF results, 24 native ensembles, 87 Double Recall comparisons and 105 representative TM entries.
 - `index.html`: structure atlas, model-type stars, larger structural medoid stars, score colors and full-length representative TM annotations.

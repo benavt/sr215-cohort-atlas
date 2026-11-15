@@ -1,0 +1,108 @@
+{
+  "cohort_id": "afs1-relaxed-afs3-7000",
+  "models": 7000,
+  "scopes": {
+    "all": {
+      "bonsai_models": 450,
+      "views": {
+        "primary": {
+          "clusters": 7,
+          "unassigned": 0,
+          "payload_sha256": "21b9bca4df3458e067a4850d28c1667b9539b868ff73dd0eb93c73e55bce75c9",
+          "membership_sha256": "e4338c0a95e5e103ba7b6bb0f95b06c1b434dcd5514652b6cbf37d7cd38649f9",
+          "representative_bundle_sha256": "a6594f00ef584ee5af1dd0219c71a22d5ace678cae0a668f860c39be3098e146",
+          "aligned_ensemble_parts": 39
+        },
+        "density": {
+          "clusters": 83,
+          "unassigned": 3116,
+          "payload_sha256": "b0891aa48e02bf636a268edd310048a248cd01815689debf829fa159c8a5f670",
+          "membership_sha256": "f46665b107e72fe3d4a051aaed31ccf102ac6eb75b3d93669a5825040df229c0",
+          "representative_bundle_sha256": "1cf5e16185e6a640488d9c6d2b65f5b9a3bb65dd8ac7ed8dc11919bfbe244c2c",
+          "aligned_ensemble_parts": 85
+        }
+      }
+    },
+    "res5-95": {
+      "bonsai_models": 450,
+      "views": {
+        "primary": {
+          "clusters": 9,
+          "unassigned": 0,
+          "payload_sha256": "ae53662768a220615530de84d16252348d8a30b3dc8f4596aa32ff5e80051de4",
+          "membership_sha256": "c4fee67bb5be3bcea81f549b76d842d5a6c6fe9168e93599d7b5b028c925af0a",
+          "representative_bundle_sha256": "92c79f467d207b6b91ee6466cab82597ab4d9fd3d62683027bdc89d8e1fa4789",
+          "aligned_ensemble_parts": 39
+        },
+        "density": {
+          "clusters": 79,
+          "unassigned": 2833,
+          "payload_sha256": "c7151ceb260030c22df7f93bdd41d18510869ee190f11631b10e7110a0522708",
+          "membership_sha256": "c3d1122fad8059afc223c333c4e4be919c2430ba92348f3a7c20742ac4237b78",
+          "representative_bundle_sha256": "0bf5e0338eca80c7c07bff854d8ca9d5986446fa8901a8a35d4fa78f7edcd78d",
+          "aligned_ensemble_parts": 80
+        }
+      }
+    },
+    "res32-47-plus78-99": {
+      "bonsai_models": 450,
+      "views": {
+        "primary": {
+          "clusters": 7,
+          "unassigned": 0,
+          "payload_sha256": "376719dcc28e3eb70c6947d2384393abf8f7b2b994d1e9efc933504e5a8616f6",
+          "membership_sha256": "b01ed2c473ec24a342584f8241ed1f93ea6e7735f52e2881ccf6a9cb2fbfa2ff",
+          "representative_bundle_sha256": "fbadf8dffd9f2e1a7fd9f6660302c85b56fdc46625228b8c1c80b2b43eef78c9",
+          "aligned_ensemble_parts": 38
+        },
+        "density": {
+          "clusters": 90,
+          "unassigned": 2973,
+          "payload_sha256": "eb4b5fc3a690f16483a05638bc2b7e48f9e209d00a1832084b10feab86533921",
+          "membership_sha256": "dd9ec6ab6f0462a6c960dcf24109d787954fd55b31e0aa6e603530ab7520c4c1",
+          "representative_bundle_sha256": "e1178596dd2875888fbaaac2b7a6283f3e1644e204c13a473b631fa7c6d92fe4",
+          "aligned_ensemble_parts": 92
+        }
+      }
+    },
+    "res32-47-plus78-99-plus121-139": {
+      "bonsai_models": 450,
+      "views": {
+        "primary": {
+          "clusters": 5,
+          "unassigned": 0,
+          "payload_sha256": "479f58a5470d6ede3584fc6c0a54e464fb5ac77c267a3d5f99851c09e2c3bc71",
+          "membership_sha256": "692c0558112629d3ffda2b5d76ed6f311f092f7a8e4f70e5e063784601525ddc",
+          "representative_bundle_sha256": "2e119faa1cc4b46869fc7f90bbb5109da166064e9d1887e7277a9bd4eb483e94",
+          "aligned_ensemble_parts": 37
+        },
+        "density": {
+          "clusters": 96,
+          "unassigned": 3070,
+          "payload_sha256": "9fcec82d8bc2c0931f2ce9c05d3a9902d693beef5c77dcc50332af71424c59a0",
+          "membership_sha256": "c23a8483bb03a13ba12114fe13a3e92abf20f006542f3ad50fadc379df588f99",
+          "representative_bundle_sha256": "417cf6fb2a52075c9b88835ab0d4eef45a3625ea449d8da5eac53795269d5300",
+          "aligned_ensemble_parts": 97
+        }
+      }
+    }
+  },
+  "aligned_ensemble_parts": 507,
+  "aligned_ensemble_model_occurrences": 44008,
+  "maximum_aligned_part_bytes": 7943347,
+  "catalog_sha256": "04660244170a454508542bb826ae4c980ca7c514af0025b4d4381610e2073fc5",
+  "downloads": {
+    "cohort-manifest.json": {
+      "bytes": 4476283,
+      "sha256": "e5f104815f600480b08a3c6193ea9804fb67506e8d0526ecc3095cb057b7a73a"
+    },
+    "protein-ebm-acceptance.json": {
+      "bytes": 28977,
+      "sha256": "045f8b43475feda2b569c4686016044874d71fb203846cd475beb35e609b9756"
+    },
+    "protein-ebm-energy-rankings-7000.csv": {
+      "bytes": 4723414,
+      "sha256": "792cabf438b8832ce86cba933d77850749103436c420a7766616c5ea16eec67c"
+    }
+  }
+}
